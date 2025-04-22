@@ -83,4 +83,10 @@ body {
      text-align: center;
      font-style: italic;
    }
+footer img {
+  width: 40px;
+  height: 40px;
+  margin-left: .5em;
+  margin-right: .5em;
+ } 
    
