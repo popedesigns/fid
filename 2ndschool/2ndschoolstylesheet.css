@@ -1,0 +1,186 @@
+
+body {
+    
+    background-color: #061bb0;  
+
+
+    .playfair-display-<uniquifier> {
+      font-family: "Playfair Display", serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .box {
+      width: 100%;
+      height: 250px;
+      padding: 10px;
+      margin: 10px;
+      content: yellow 
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: yellow;
+  }
+  
+ ul li {
+    float: left;
+  }
+  
+ol {
+  color: white 
+}
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: yellow;
+  }
+   
+}
+
+   
+   a:link {
+     text-decoration: none;
+     color: black;
+   }
+   a:visited {
+   color: gray; 
+   }
+   a:focus 
+   { color: blue; background-color: blue; } 
+   
+   a:hover 
+   { color: red; background-color: cyan; } 
+   a:active 
+   { color: maroon; background-color: red; }
+   
+    
+   h1 {
+     font: bold 1.5em "Playfair Display", serif;
+     text-shadow: .1em .1em .2em gray;
+     color: Yellow;
+     border-bottom: 3px solid #58FAE2;
+     text-align: center;
+   }
+   h2 {
+
+     font-size: 1em;
+     text-transform: uppercase;
+     letter-spacing: .5em;
+     text-align: center;
+     color: White;
+     border-bottom: 1px solid #58FAE2;
+   }
+
+
+   
+   dt {
+     font-weight: bold;
+   }
+   strong {
+     font-style: italic;
+   }
+   ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+   }
+   #info p {
+     font-style: italic;
+   }
+ 
+
+   .label {
+     font-weight: bold;
+     font-variant: small-caps;
+     font-style: normal;
+   }
+   
+   h1 + p {
+     text-align: center;
+     font-style: italic;
+     background: white;
+     width: 100%;
+     padding: 0.5em;
+   }
+
+   h2 + p {
+    text-align: center;
+    background: yellow;
+    width: 100%;
+    padding: 0.5em;
+  }
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+   * {
+    margin: o;
+    padding: 0;
+    box-sizing: content-box;
+   }
+
+   footer img {
+    width: 40px;
+    height: 40px;
+    margin-left: .5em;
+    margin-right: .5em;
+   } 
+   
+    footer {
+      text-align: center;
+      padding: 3px;
+      background-color: none;
+      color: white;
+    }
